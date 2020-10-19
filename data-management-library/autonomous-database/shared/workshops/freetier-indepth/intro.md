@@ -24,17 +24,16 @@ Oracle’s Autonomous Database is the perfect quick-start service for fast data 
 - Use the in-database DBMS\_PREDICTIVE\_ANALYTICS functionality
 
 ## Lab Breakdown
-- **Lab 1:** Log in to Oracle Cloud and access the Oracle Autonomous Data Warehouse console.
-- **Lab 2:** Provision your first Autonomous Data Warehouse.
-- **Lab 3:** Explore the provided sample data sets that come with your Autonomous Database.
-- **Lab 4:** Upload files to the Oracle Cloud Infrastructure (OCI) Object Storage, create sample tables, load data into them from files on the OCI Object Storage, and troubleshoot data loads with errors.
-- **Lab 5:** Query files on the Oracle Cloud Infrastructure Object Storage (OCI) directly without loading them to your database.
-- **Lab 6:** Visualize your data using Oracle Analytics Desktop.
-- **Lab 7:** Use wallets for secure connections to the autonomous database.
-- **Lab 8:** Manage and monitor your autonomous Database.
-- **Lab 9:** Scale up your Oracle Autonomous Database service to have more CPUs.
-- **Lab 10:** Create Oracle Machine Learning SQL notebooks.
-- **Lab 11:** Use the in-database DBMS\_PREDICTIVE\_ANALYTICS functionality.
+- **Lab 1:** Provision your first Autonomous Data Warehouse.
+- **Lab 2:** Explore the provided sample data sets that come with your Autonomous Database.
+- **Lab 3:** Upload files to the Oracle Cloud Infrastructure (OCI) Object Storage, create sample tables, load data into them from files on the OCI Object Storage, and troubleshoot data loads with errors.
+- **Lab 4:** Query files on the Oracle Cloud Infrastructure Object Storage (OCI) directly without loading them to your database.
+- **Lab 5:** Visualize your data using Oracle Analytics Desktop.
+- **Lab 6:** Use wallets for secure connections to the autonomous database.
+- **Lab 7:** Manage and monitor your autonomous Database.
+- **Lab 8:** Scale up your Oracle Autonomous Database service to have more CPUs.
+- **Lab 9:** Create Oracle Machine Learning SQL notebooks.
+- **Lab 10:** Use the in-database DBMS\_PREDICTIVE\_ANALYTICS functionality.
 
 **After reading the following workshop prerequisites, get started by clicking Lab 1 in the Contents menu on the right.**
 

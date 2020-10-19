@@ -2,38 +2,37 @@
     "workshoptitle": "High Performance Compute - GROMACS Workshop",
     "tutorials": [
         {
+            "title": "Prerequisites",
+            "filename": "https://raw.githubusercontent.com/oracle/learning-library/master/common/labs/cloud-login/pre-register-free-tier-account.md"
+        },
+        {
             "title": "Introduction",
             "description": "Brief Introduction on Oracle HPC",
             "filename": "../../hpc-introduction/hpc-introduction.md"   
         },
         {
-            "title": "Log into Oracle Cloud Console",
-            "description": "Steps to log in to the OCI Console",
-            "filename": "../../login/login.md"      
-        },
-        {
-            "title": "Add Gromacs Installer to Object Storage",
+            "title": "Lab 1: Add Gromacs Installer to Object Storage",
             "description": "Add Gromacs Installer to Object Storage",
             "filename": "../../obj-storage/obj-storage.md"        
         },
         {
-            "title": "Resource Manager",
+            "title": "Lab 2: Resource Manager",
             "description": "Resource Manager",
             "filename": "../../rsc-manager/rsc-manager.md"
             
         },
         {         
-            "title": "Select Variables",
+            "title": "Lab 3: Select Variables",
             "description": "Select Variables",
             "filename": "../../select-variables/select-variables.md"
         },
 
         {
-            "title": "Run the Stack",
+            "title": "Lab 4: Run the Stack",
             "filename": "../../run-stack/run-stack.md"
         },
         {
-            "title": "Access your GPU Node",
+            "title": "Lab 5: Access your GPU Node",
             "filename": "../../access-gpu/access-gpu.md"
         }
         

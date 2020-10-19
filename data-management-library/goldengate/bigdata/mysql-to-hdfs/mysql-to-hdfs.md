@@ -144,10 +144,10 @@ Now that the source side is setup, let us configure GG on the target side (HDFS)
 
   ![](./images/b7.png " ")
 
-```
-<copy> cd dirprm
-vi rhdfs.properties</copy>
-```
+    ```
+    <copy> cd dirprm
+    vi rhdfs.properties</copy>
+    ```
 
 2. Remove "---" from the items below as highlighted above
 
@@ -255,14 +255,14 @@ The stats command displays the statistics of the data that GoldenGate processed 
 ## **STEP 5**: GoldenGate Results using HUE
 
 1. Open a Browser window from your local machine to visualize data from HUE frontend application.
- - URL
+    - URL
 
     ```
     <copy>http://<Your Host Public IP address>:8888</copy>
     e.g: http://111.222.111.222:8888
     ```
 
- - Credentials: cloudera/cloudera
+    - Credentials: cloudera/cloudera
 
 2. Click on Hamburger Menu, File Browser then Navigate to `/user/ggtarget/hdfs…`
 
@@ -288,6 +288,6 @@ You may now *proceed to the next lab*.
 
 
 ## Need Help?
-Please submit feedback or ask for help using our [LiveLabs Support Forum](https://community.oracle.com/tech/developers/categories/livelabsdiscussions). Please click the **Log In** button and login using your Oracle Account. Click the **Ask A Question** button to the left to start a *New Discussion* or *Ask a Question*.  Please include your workshop name and lab name.  You can also include screenshots and attach files.  Engage directly with the author of the workshop.
+Please submit feedback or ask for help using our [LiveLabs Support Forum](https://community.oracle.com/tech/developers/categories/goldengate-on-premises). Please click the **Log In** button and login using your Oracle Account. Click the **Ask A Question** button to the left to start a *New Discussion* or *Ask a Question*.  Please include your workshop name and lab name.  You can also include screenshots and attach files.  Engage directly with the author of the workshop.
 
 If you do not have an Oracle Account, click [here](https://profile.oracle.com/myprofile/account/create-account.jspx) to create one.

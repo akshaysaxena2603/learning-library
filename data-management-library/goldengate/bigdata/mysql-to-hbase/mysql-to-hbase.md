@@ -84,40 +84,40 @@ Now we need to start the GG manager process on both the source and target. Keep 
 
   ![](./images/d2.png " ")
 
-  ```
-  <copy> cd /u01/gg4mysql
-  ./ggsci</copy>
-  ```
-  ```
-  <copy> info all</copy>
-  ```
-  ```
-  <copy> start mgr</copy>		
-   ```
-   ```
-  <copy> info all</copy>
-  ```
+    ```
+    <copy> cd /u01/gg4mysql
+    ./ggsci</copy>
+    ```
+    ```
+    <copy> info all</copy>
+    ```
+    ```
+    <copy> start mgr</copy>		
+    ```
+    ```
+    <copy> info all</copy>
+    ```
 
 2. In the second or `target` terminal session, go to the **GG Home for Hadoop**, and start the manager process. You can either cd to the directory, or call the alias gghadoop:
 
   ![](./images/d3.png " ")
 
-  ```
-  <copy> cd /u01/gg4hadoop123010
-  ./ggsci</copy>
-  ```
-  ```
-  <copy> info all</copy>	 
-  ```
-  ```
-  <copy> start mgr</copy>		
-  ```
-  ```
-  <copy> info all</copy>	 
-  ```
-  ```
-  <copy> exit</copy>
-  ```
+    ```
+    <copy> cd /u01/gg4hadoop123010
+    ./ggsci</copy>
+    ```
+    ```
+    <copy> info all</copy>	 
+    ```
+    ```
+    <copy> start mgr</copy>		
+    ```
+    ```
+    <copy> info all</copy>	 
+    ```
+    ```
+    <copy> exit</copy>
+    ```
 
 3. In the first or `source` terminal session (**GG for MySQL ggsci session**), we will create and start the GG extract process:
 
@@ -246,14 +246,14 @@ Now that the source side is setup, let us configure GG on the target side (HBase
 ## **STEP 4**: GoldenGate Results using HUE
 
 1. Open a Browser window from your local machine to visualize data from HUE frontend application.
- - URL
+    - URL
 
     ```
     <copy>http://<Your Host Public IP address>:8888</copy>
     e.g: http://111.222.111.222:8888
     ```
 
- - Credentials: cloudera/cloudera
+    - Credentials: cloudera/cloudera
 
 2. Click on *Data Browser > HBase > ggtarget2hbase:emp*
 
@@ -287,6 +287,6 @@ You may now *proceed to the next lab*.
 
 
 ## Need Help?
-Please submit feedback or ask for help using our [LiveLabs Support Forum](https://community.oracle.com/tech/developers/categories/livelabsdiscussions). Please click the **Log In** button and login using your Oracle Account. Click the **Ask A Question** button to the left to start a *New Discussion* or *Ask a Question*.  Please include your workshop name and lab name.  You can also include screenshots and attach files.  Engage directly with the author of the workshop.
+Please submit feedback or ask for help using our [LiveLabs Support Forum](https://community.oracle.com/tech/developers/categories/goldengate-on-premises). Please click the **Log In** button and login using your Oracle Account. Click the **Ask A Question** button to the left to start a *New Discussion* or *Ask a Question*.  Please include your workshop name and lab name.  You can also include screenshots and attach files.  Engage directly with the author of the workshop.
 
 If you do not have an Oracle Account, click [here](https://profile.oracle.com/myprofile/account/create-account.jspx) to create one.

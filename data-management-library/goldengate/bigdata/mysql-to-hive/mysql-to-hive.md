@@ -45,7 +45,7 @@ Refer to *Lab Environment Setup* for detailed instructions relevant to your SSH 
 
 2. Select **R** to reset the lab then Option **4**
 
-![](./images/labmenu_opt1.png " ")
+  ![](./images/labmenu_opt1.png " ")
 
 3. Review the overview notes on the following screen, then select **Q** to quit. These online notes have been provided so you can cut/paste file names to another session, to avoid typos.
 
@@ -164,25 +164,25 @@ Now that the source side is setup, let us configure GG on the target side (Hive 
 
   ![](./images/c6.png " ")
 
-```
-<copy>cd /u01/gg4hadoop123010/dirprm</copy>
-```
-```
-<copy> vi rhive.properties</copy>
-```
+    ```
+    <copy>cd /u01/gg4hadoop123010/dirprm</copy>
+    ```
+    ```
+    <copy> vi rhive.properties</copy>
+    ```
 
 2. Remove "--" from the items below as highlighted above
 
-```
- ---hdfs
- ---avro_op_ocf
- ---/user/ggtarget/hive/data
- ---/user/ggtarget/hive/schema
- ---.avro
- ---jdbc:hive2://localhost:10000
- ---ORACLEWALLETUSERNAME myalias
- ---ORACLEWALLETPASSWORD myalias
-```
+    ```
+    ---hdfs
+    ---avro_op_ocf
+    ---/user/ggtarget/hive/data
+    ---/user/ggtarget/hive/schema
+    ---.avro
+    ---jdbc:hive2://localhost:10000
+    ---ORACLEWALLETUSERNAME myalias
+    ---ORACLEWALLETPASSWORD myalias
+    ```
 
 3. Now create and start the Hive replicat process:
 
@@ -242,14 +242,14 @@ Now that GG processes have been created and started on both the source and targe
 ## **STEP 5**: GoldenGate Results using HUE
 
 1. Open a Browser window from your local machine to visualize data from HUE frontend application.
- - URL
+    - URL
 
     ```
     <copy>http://<Your Host Public IP address>:8888</copy>
     e.g: http://111.222.111.222:8888
     ```
 
- - Credentials: cloudera/cloudera
+    - Credentials: cloudera/cloudera
 
 2. Click on Query, Editor, Select Hive
 
@@ -260,7 +260,7 @@ Now that GG processes have been created and started on both the source and targe
 
   ![](./images/hive3.png " ")
 
-![](./images/hive23.png " ")
+  ![](./images/hive23.png " ")
 
   **Schema:**
 
@@ -268,13 +268,13 @@ Now that GG processes have been created and started on both the source and targe
 
   ![](./images/c26.png " ")
 
-**Data**
+  **Data**
 
    **`/user/ ggtarget/ hive/ data/ ggtarget2hive_avro.dept.avsc`**
 
-![](./images/hive24.png " ")
+  ![](./images/hive24.png " ")
 
-![](./images/hive25.png " ")
+  ![](./images/hive25.png " ")
 
 ## Summary
 In summary, we loaded data in MySQL database `ggsource`, GG extract process `extmysql` captured the changes from the MySQL binary logs and wrote them to the local trail file. The pump process `pmphadop` routed the data from the local trail (on the source) to the remote trail (on the target). The replicat process `rhive` read the remote trail files, created the Hive tables, wrote the data and the schema files (avsc) to the HDFS target directory for Hive: `/user/ggtarget/hive/data/*` and `/user/ggtarget/hive/schema`
@@ -291,6 +291,6 @@ You may now *proceed to the next lab*.
 * **Last Updated By/Date** - Rene Fontcha, Master Principal Solutions Architect, NA Technology, October 2020
 
 ## Need Help?
-Please submit feedback or ask for help using our [LiveLabs Support Forum](https://community.oracle.com/tech/developers/categories/livelabsdiscussions). Please click the **Log In** button and login using your Oracle Account. Click the **Ask A Question** button to the left to start a *New Discussion* or *Ask a Question*.  Please include your workshop name and lab name.  You can also include screenshots and attach files.  Engage directly with the author of the workshop.
+Please submit feedback or ask for help using our [LiveLabs Support Forum](https://community.oracle.com/tech/developers/categories/goldengate-on-premises). Please click the **Log In** button and login using your Oracle Account. Click the **Ask A Question** button to the left to start a *New Discussion* or *Ask a Question*.  Please include your workshop name and lab name.  You can also include screenshots and attach files.  Engage directly with the author of the workshop.
 
 If you do not have an Oracle Account, click [here](https://profile.oracle.com/myprofile/account/create-account.jspx) to create one.

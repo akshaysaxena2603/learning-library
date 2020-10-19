@@ -38,18 +38,18 @@ Follow the steps below to install GoldenGate, or optionally you can select “I�
 
 3. Review the labmenu, then Select **Q** to quit to install GoldenGate Big Data Adapter Handlers
 
-The following Lab Menu will be displayed
+  The following Lab Menu will be displayed
 
-  ![](./images/labmenu_opt1.png " ")
+    ![](./images/labmenu_opt1.png " ")
 
 ## **STEP 1**: Performing the Install
 
 1.  **Select Option 1**
 
-Review the overview notes on the following screen, Select **Q** to quit.
+  Review the overview notes on the following screen, Select **Q** to quit.
       ![](./images/labmenu_opt1.png " ")
 
-These online notes have been provided so you can cut/paste file names to another session, to avoid typos.
+  These online notes have been provided so you can cut/paste file names to another session, to avoid typos.
 
 2. To install and configure GoldenGate, we have extracted the GG binaries from a tar file prior to the labs – this file has been copied to /u01 as part of the setup. We will connect to the GoldenGate command line interface (ggsci) and run CREATE SUBDIRS to create the subdirectories in the GoldenGate home.
 
@@ -118,6 +118,6 @@ You may now *proceed to the next lab*.
 
 
 ## Need Help?
-Please submit feedback or ask for help using our [LiveLabs Support Forum](https://community.oracle.com/tech/developers/categories/livelabsdiscussions). Please click the **Log In** button and login using your Oracle Account. Click the **Ask A Question** button to the left to start a *New Discussion* or *Ask a Question*.  Please include your workshop name and lab name.  You can also include screenshots and attach files.  Engage directly with the author of the workshop.
+Please submit feedback or ask for help using our [LiveLabs Support Forum](https://community.oracle.com/tech/developers/categories/goldengate-on-premises). Please click the **Log In** button and login using your Oracle Account. Click the **Ask A Question** button to the left to start a *New Discussion* or *Ask a Question*.  Please include your workshop name and lab name.  You can also include screenshots and attach files.  Engage directly with the author of the workshop.
 
 If you do not have an Oracle Account, click [here](https://profile.oracle.com/myprofile/account/create-account.jspx) to create one.
